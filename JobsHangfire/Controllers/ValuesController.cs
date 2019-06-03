@@ -12,9 +12,9 @@ namespace JobsHangfire.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return "Acesse http://localhost:1972/hangfire para ver o painel";
         }
 
         // GET api/values/5
