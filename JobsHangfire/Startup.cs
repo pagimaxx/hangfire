@@ -101,7 +101,7 @@ namespace JobsHangfire
                 IEnumerable<Pedido> lista = null;
 
                 // Atualiza o histórico para que o pedido não fique "preso"
-                var atualizar = await AtualizarPedido("http://localhost:5000/pedido/atualizar-lista", lista);
+                var atualizar = await AtualizarPedido("http://localhost:5000/pedido/atualizar", lista);
 
             }
             catch (Exception e)
